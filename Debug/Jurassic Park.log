@@ -1,0 +1,5 @@
+﻿  Cage.cpp
+Cage.obj : error LNK2019: unresolved external symbol "public: __thiscall Dinosaur::Dinosaur(void)" (??0Dinosaur@@QAE@XZ) referenced in function "public: __thiscall Cage::Cage(class Cage const &)" (??0Cage@@QAE@ABV0@@Z)
+Cage.obj : error LNK2019: unresolved external symbol "public: __thiscall Dinosaur::~Dinosaur(void)" (??1Dinosaur@@QAE@XZ) referenced in function "public: __thiscall Cage::Cage(class Cage const &)" (??0Cage@@QAE@ABV0@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\UNI\OOP\Projects\New folder\Project_№8\Jurassic Park\Debug\Jurassic Park.exe : fatal error LNK1120: 3 unresolved externals
