@@ -15,13 +15,18 @@ private:
 	era_t era;
 	category_t category;
 	string type;
+	string climate;
 	food_t food;
+
 
 	void swap(Dinosaur& other);
 public:
-	Dinosaur(string, sex_t, era_t, category_t, string, food_t);
+	Dinosaur(string, sex_t, era_t, category_t, string, string, food_t);
 	~Dinosaur();
 	Dinosaur(const Dinosaur& other);
 	Dinosaur& operator=(const Dinosaur& other);
+	category_t get_category() const;
+	era_t get_era() const;
+	string get_climate() const;
 };
 
