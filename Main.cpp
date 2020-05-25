@@ -13,6 +13,7 @@ void static print_help()
     cout << "6. list                                                                   - prints info for the cage\n";
     cout << "7. hire_staff                                                             - adds new memeber to the staff\n";
     cout << "8. create_random_cages                                                    - creates a random number of random cages\n";
+    cout << "9. print_food                                                             - shows the amount of food in the zoo\n";
     cout << "9. save_as <filename>                                                     - saves data in file <filename>\n";
     cout << "10. load_from <filename>                                                  - reads data from file <filename>\n";
     cout << "11. exit                                                                   - exit program\n\n";
@@ -58,6 +59,10 @@ void run_program(Zoo& zoo)
         else if (command == "create_random_cages")
         {
             zoo.create_random_cages();
+        }
+        else if (command == "print_food")
+        {
+            zoo.print_food();
         }
         else if (command == "save_as")
         {
@@ -115,9 +120,9 @@ void test_create_cage(Zoo& zoo)
 int main()
 {
     Zoo zoo;
-    //test_create_dino(zoo);
     // zoo.load_from_file("zoo.txt");
     // zoo.list(cout);
+    //test_create_dino(zoo);
 
     run_program(zoo);
 

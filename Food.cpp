@@ -19,3 +19,8 @@ Food& Food::operator=(const Food& other)
 	swap(temp);
 	return *this;
 }
+
+void Food::print() const
+{
+	std::cout << foods[(int)food] << ": " << quantity << std::endl;
+}

@@ -9,9 +9,9 @@ class Zoo
 {
 private:
 	vector<Cage> cages;
-	double plants_quantity = 0;
-	double meat_quantity = 0;
-	double fish_quantity = 0;
+	Food plants;
+	Food meat;
+	Food fish;
 	int staff_count = 0;
 
 	bool is_food_category_compatible(food_t, category_t);
@@ -32,6 +32,7 @@ public:
 	void create_cage();
 	void remove_dinosaur_by_name();
 	void deliver_food_in_storage();
+	void print_food() const;
 	void hire_staff();
 	void list(ostream& out) const;
 };

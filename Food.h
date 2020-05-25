@@ -13,7 +13,7 @@ struct Food
 	Food(food_t, double);
 	Food(const Food& other);
 	Food& operator=(const Food& other);
+
+	void print() const;
 };
 
-//may not need this
-//delete after

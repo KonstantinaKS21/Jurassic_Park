@@ -22,9 +22,3 @@ void Dimensions::print(ostream& out) const
 	out <<"dimensions: "<< x << "x" << y << "x" << z << " ";
 }
 //10x20x30 -> 10, 20, 30  (delim: 'x')
-
-/*ostream& operator<<(ostream& out, const Dimensions& dim)
-{
-	out << print();
-	return out;
-} */

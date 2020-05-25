@@ -1,5 +1,2 @@
 ﻿  Main.cpp
-  Zoo.cpp
-D:\UNI\OOP\Projects\New folder\Project_№8\Jurassic Park\Jurassic Park\Zoo.cpp(119,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
   Jurassic Park.vcxproj -> D:\UNI\OOP\Projects\New folder\Project_№8\Jurassic Park\Debug\Jurassic Park.exe

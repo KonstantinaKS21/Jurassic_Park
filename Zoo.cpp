@@ -4,7 +4,7 @@
 #include <cassert>
 #include <sstream>
 
-Zoo::Zoo()
+Zoo::Zoo(): plants(food_t::PLANTS, 0), meat(food_t::MEAT, 0), fish(food_t::FISH, 0)
 {
 	load_from_file("zoo.txt");
 }
@@ -217,6 +217,32 @@ void Zoo::create_dinosaur()
 	}
 
 	Dinosaur dinosaur(name, sex, category, era, climate, type, food);
+	
+	if (food == food_t::PLANTS) //every dino eats one food of its type
+	{
+		plants.quantity--;
+		if (plants.quantity <= 0)
+		{
+			cout << "We're running short on plants. Deliver more plants in storage.\n";
+		}
+	}
+	if (food == food_t::MEAT)
+	{
+		meat.quantity--;
+		if (meat.quantity <= 0)
+		{
+			cout << "We're running short on meat. Deliver more meat in storage.\n";
+		}
+	}
+	if (food == food_t::FISH)
+	{
+		fish.quantity--;
+		if (fish.quantity <= 0)
+		{
+			cout << "We're running short on fish. Deliver more fish in storage.\n";
+		}
+	}
+	
 	add_dinosaur(dinosaur);
 }
 
@@ -238,26 +264,34 @@ void Zoo::deliver_food_in_storage()
 	cin >> food_type >> quantity;
 	if (food_type == "plants")
 	{
-		plants_quantity += quantity;
+		plants.quantity += quantity;
 		cout << quantity << " kg plants added to storage.\n";
-		cout << "Total plants quantity in storage: " << plants_quantity;
+		cout << "Total plants quantity in storage: " << plants.quantity;
 		cout << endl;
 	}
 	else if (food_type == "meat")
 	{
-		meat_quantity += quantity;
+		meat.quantity += quantity;
 		cout << quantity << " kg meat added to storage.\n";
-		cout << "Total meat quantity in storage: " << meat_quantity;
+		cout << "Total meat quantity in storage: " << meat.quantity;
 		cout << endl;
 	}
 	else if (food_type == "fish")
 	{
-		fish_quantity += quantity;
+		fish.quantity += quantity;
 		cout << quantity << " kg fish added to storage.\n";
-		cout << "Total fish quantity in storage: " << fish_quantity;
+		cout << "Total fish quantity in storage: " << fish.quantity;
 		cout << endl;
 	}
 	else cout << "Dinosaurs don't eat " << food_type << "." << endl;
+}
+
+void Zoo::print_food() const
+{
+	cout << "Food in zoo: " << endl;
+	plants.print();
+	meat.print();
+	fish.print();
 }
 
 void Zoo::hire_staff()

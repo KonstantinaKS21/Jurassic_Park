@@ -100,4 +100,4 @@ void Cage::print(ostream& out) const
 	list_dinosaurs(out);
 }
 
-//capacity: 10 
+ 
