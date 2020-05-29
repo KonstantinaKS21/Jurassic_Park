@@ -100,9 +100,9 @@ void Zoo::create_cage()
 	string climate, category_str, era_str;
 	double x, y, z;
 	cin >> capacity >> x >> y >> z >> category_str >> era_str >> climate;
-	while (capacity != 3 && capacity != 7 && capacity != 10)  //asserts the cage's capacity
+	while (capacity != 1 && capacity != 3 && capacity != 10)  //asserts the cage's capacity
 	{
-		cout << "Cage's capacity must be for 3(small), 7(medium) or 10(large) dinosaurs.\n";
+		cout << "Cage's capacity must be for 1(small), 3(medium) or 10(large) dinosaurs.\n";
 		cout << "Enter a new capacity value: ";
 		cin >> capacity;
 	}
