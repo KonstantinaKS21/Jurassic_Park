@@ -2,7 +2,7 @@
 #include "Cage.h"
 #include <vector>
 #include <fstream>
-#include <time.h> //std::random
+#include <time.h> //std::random()
 using namespace std;
 
 class Zoo

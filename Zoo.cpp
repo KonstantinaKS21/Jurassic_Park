@@ -7,6 +7,7 @@
 Zoo::Zoo(): plants(food_t::PLANTS, 0), meat(food_t::MEAT, 0), fish(food_t::FISH, 0)
 {
 	load_from_file("zoo.txt");
+	create_random_cages();
 }
 
 Zoo::~Zoo()

@@ -7,7 +7,7 @@ using namespace std;
 class Cage
 {
 private:
-	size_t capacity; //max size for different types of cages(3, 7, 10 animals)
+	size_t capacity; //max size for different types of cages(1, 3, 10 animals)
 	Dimensions dimensions;
 	vector<Dinosaur> dinosaurs;
 	category_t category;
