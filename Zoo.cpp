@@ -61,7 +61,7 @@ Dinosaur Zoo::load_dinosaur(ifstream& file)
 
 void Zoo::load_from_file(string filename) 
 {
-	ifstream input(filename, ios::beg, ios::trunc);
+	ifstream input(filename);
 	string line_str;
 	while (getline(input, line_str))
 	{
@@ -88,7 +88,7 @@ void Zoo::load_from_file(string filename)
 
 void Zoo::save_in_file(string filename)
 {
-	ofstream output(filename, ios::beg);
+	ofstream output(filename, ios::trunc);
 	for (size_t i = 0; i < cages.size(); i++)
 	{
 		cages[i].print(output);
@@ -311,3 +311,12 @@ void Zoo::list(ostream& out) const
 	
 }
 
+void Zoo::clear()
+{
+	for (size_t i = 0; i < cages.size(); i++)
+	{
+		cages[i].clear();
+	}
+	cages.clear();
+	cout << "A giant meteorite has suddenly landed on your zoo :( \n";
+}

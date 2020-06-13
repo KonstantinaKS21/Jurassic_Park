@@ -30,5 +30,6 @@ public:
 	void remove_dinosaur(string);
 	void list_dinosaurs(ostream& out) const;
 	void print(ostream& out) const;
+	void clear();
 };
 

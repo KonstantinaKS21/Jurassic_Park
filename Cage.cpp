@@ -96,8 +96,12 @@ void Cage::print(ostream& out) const
 {
 	out << "capacity: " << capacity << " "; 
 	dimensions.print(out); 
-	out << categories[(int)category] << " " << eras[(int)era] << " " << climate << " " << "Dinosaurs in cage: " <<  dinosaurs.size() << endl;
+	out << categories[(int)category] << " " << eras[(int)era] << " " 
+		<< climate << " " << "Dinosaurs in cage: " <<  dinosaurs.size() << endl;
 	list_dinosaurs(out);
 }
 
- 
+void Cage::clear()
+{
+	dinosaurs.clear();
+ }

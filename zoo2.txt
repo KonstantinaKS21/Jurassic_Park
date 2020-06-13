@@ -1,0 +1,23 @@
+capacity: 3 dimensions: 72.26x53.08x1.31 spinosaur jurassic tropical Dinosaurs in cage: 1
+1. pepa female spinosaur jurassic tropical t-pepa fish
+capacity: 7 dimensions: 42.48x44.43x23.99 carnivore triassic tropical Dinosaurs in cage: 0
+capacity: 10 dimensions: 10x10x10 carnivore jurassic dry Dinosaurs in cage: 1
+1. rex male carnivore jurassic dry t-rex meat
+capacity: 3 dimensions: 9.53x26.34x65.04 carnivore triassic tropical Dinosaurs in cage: 0
+capacity: 7 dimensions: 54.22x49.76x42.19 carnivore cretaceous_periods mild Dinosaurs in cage: 0
+capacity: 7 dimensions: 57.52x88.52x98.45 herbivore triassic tropical Dinosaurs in cage: 0
+capacity: 3 dimensions: 41.39x50.08x14.17 pterosaur triassic dry Dinosaurs in cage: 0
+capacity: 10 dimensions: 23.85x4.77x19.54 herbivore triassic tropical Dinosaurs in cage: 0
+capacity: 10 dimensions: 14.06x11.53x68.23 carnivore jurassic polar Dinosaurs in cage: 0
+capacity: 3 dimensions: 0.26x15.09x16.01 herbivore triassic tropical Dinosaurs in cage: 0
+capacity: 7 dimensions: 63.77x71.63x94.76 carnivore triassic dry Dinosaurs in cage: 0
+capacity: 3 dimensions: 2.14x58.51x80.62 herbivore triassic tropical Dinosaurs in cage: 0
+capacity: 7 dimensions: 57.2x51.15x24.94 pterosaur jurassic tropical Dinosaurs in cage: 0
+capacity: 10 dimensions: 92.4x63.66x13.71 pterosaur triassic dry Dinosaurs in cage: 0
+capacity: 3 dimensions: 43.75x9.04x10.46 spinosaur cretaceous_periods tropical Dinosaurs in cage: 0
+capacity: 10 dimensions: 46.76x85.64x19.44 pterosaur jurassic mild Dinosaurs in cage: 0
+capacity: 3 dimensions: 74.1x42.24x92.71 spinosaur jurassic cold Dinosaurs in cage: 0
+capacity: 7 dimensions: 21.9x42.04x24.98 herbivore jurassic tropical Dinosaurs in cage: 0
+capacity: 10 dimensions: 96.5x34.4x17.63 herbivore cretaceous_periods mild Dinosaurs in cage: 0
+capacity: 3 dimensions: 34.8x61.94x79.09 pterosaur jurassic cold Dinosaurs in cage: 0
+capacity: 10 dimensions: 14.51x19.21x36.53 pterosaur cretaceous_periods dry Dinosaurs in cage: 0

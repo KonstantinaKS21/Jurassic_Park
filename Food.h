@@ -11,8 +11,8 @@ struct Food
 	void swap(Food& other);
 
 	Food(food_t, double);
-	Food(const Food& other);
-	Food& operator=(const Food& other);
+	//Food(const Food& other);
+	//Food& operator=(const Food& other);
 
 	void print() const;
 };

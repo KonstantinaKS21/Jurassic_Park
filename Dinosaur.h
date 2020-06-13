@@ -22,8 +22,8 @@ private:
 	string type;
 	food_t food;
 
-
 	void swap(Dinosaur& other);
+
 public:
 	Dinosaur(string, sex_t, category_t, era_t, string, string, food_t);
 	~Dinosaur();

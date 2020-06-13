@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void static print_help() 
+static void print_help()
 {
     cout << "============== Jurassic Park ===============\n\n";
     cout << "1. help                                                                   - print this help\n";
@@ -16,7 +16,11 @@ void static print_help()
     cout << "9. print_food                                                             - shows the amount of food in the zoo\n";
     cout << "9. save_as <filename>                                                     - saves data in file <filename>\n";
     cout << "10. load_from <filename>                                                  - reads data from file <filename>\n";
-    cout << "11. exit                                                                   - exit program\n\n";
+    cout << "11. clear                                                                 - deletes all cages and dinos\n";
+    cout << "12. exit                                                                  - exit program\n\n";
+    cout << "<Categories>::= herbivore | carnivore | spinosaur | pterosaur \n";
+    cout << "<Era> ::= triassic | jurassic | cretaceous_periods \n";
+    cout << "<Random_climate> ::= tropical | dry | mild | cold | polar \n\n";
 }
 
 void run_program(Zoo& zoo)
@@ -72,6 +76,10 @@ void run_program(Zoo& zoo)
         else if (command == "load_from")
         {
             zoo.load_command();
+        }
+        else if (command == "clear")
+        {
+            zoo.clear();
         }
         else if (command == "exit")
         {

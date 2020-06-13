@@ -1,0 +1,9 @@
+capacity: 3 dimensions: 83.88x82.67x96.44 pterosaur jurassic tropical Dinosaurs in cage: 0
+capacity: 7 dimensions: 91.97x33.87x22.53 pterosaur triassic dry Dinosaurs in cage: 0
+capacity: 7 dimensions: 79.24x19.9x38.44 carnivore triassic polar Dinosaurs in cage: 0
+capacity: 7 dimensions: 52.27x16.09x4.61 spinosaur jurassic cold Dinosaurs in cage: 0
+capacity: 10 dimensions: 59.39x71.05x25.83 carnivore triassic tropical Dinosaurs in cage: 0
+capacity: 7 dimensions: 77.93x13.71x67.96 herbivore cretaceous_periods tropical Dinosaurs in cage: 0
+capacity: 10 dimensions: 10x10x10 herbivore triassic tropical Dinosaurs in cage: 2
+1. pepi male herbivore triassic tropical t-rex plants
+2. pepi male herbivore triassic tropical t-rex plants

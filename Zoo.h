@@ -2,7 +2,7 @@
 #include "Cage.h"
 #include <vector>
 #include <fstream>
-#include <time.h> //std::random()
+#include <time.h> //std::rand()
 using namespace std;
 
 class Zoo
@@ -27,7 +27,7 @@ public:
 	void save_in_file(string filename);
 	void create_random_cages();
 	void create_dinosaur();
-	int get_dinosaur_count();
+	int  get_dinosaur_count();
 	void add_dinosaur(Dinosaur);
 	void create_cage();
 	void remove_dinosaur_by_name();
@@ -35,5 +35,6 @@ public:
 	void print_food() const;
 	void hire_staff();
 	void list(ostream& out) const;
+	void clear();
 };
 
